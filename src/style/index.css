@@ -30,8 +30,29 @@ h1 {
   color: #fff;
 }
 
+.head_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+}
+.head_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register_btn {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border: none;
+  color: #fff;
+  background-color: green;
+}
+
+
 .main_container {
   width: 1000px;
   margin: 0 auto;
 }
-
